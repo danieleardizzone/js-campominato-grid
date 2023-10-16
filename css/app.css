@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.grid > *{
+    border: 2px solid black;
+}
+
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    aspect-ratio: 1;
+}
